@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            app:maxImageSize="20dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shadow"
+                android:src="@drawable/category_style"
+
+                />
+
+            <TextView
+                android:id="@+id/itemLayoutNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/paytone_one"
+                android:text="Hamburger"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemLayoutPrezzo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/paytone_one"
+                android:text="00"
+                android:textColor="#B7000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:text="idItem"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/positionLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="position"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/itemLayoutImmagine"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+            app:srcCompat="@drawable/bigmac" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Foody</string>
+
+    <string-array name="category_array">
+        <item>Hamburger</item>
+        <item>Pizza</item>
+        <item>Dessert</item>
+        <item>Drink</item>
+    </string-array>
+
+</resources>
